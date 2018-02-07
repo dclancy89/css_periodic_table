@@ -36,6 +36,10 @@ ul li span {
 	display: block;
 }
 
+ul li span:last-of-type {
+	margin-top: -2px;
+}
+
 ul li:last-child {
 	background: white;
 }
@@ -68,22 +72,22 @@ ul li:first-child {
 .container ul:nth-child(8) li:nth-child(2), 
 .container ul:nth-child(8) li:nth-child(3) {
 	background-color: #6A9DFC;
-	border-color: #ccc;
+	border-color: #888;
 }
 
 .pink {
 	background-color: #FB9B9A;
-	border-color: #ccc;
+	border-color: #888;
 }
 
 .yellow {
 	background-color: #FDCA2E;
-	border-color: #ccc;
+	border-color: #888;
 }
 
 .green {
 	background-color: #2DC831;
-	border-color: #ccc;
+	border-color: #888;
 }
 
 .container ul li:nth-child(3), .container ul:last-child li:first-child, .container ul:nth-child(9) li:first-child {
