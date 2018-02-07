@@ -1,5 +1,6 @@
 body {
 	font-family: Arial;
+	background-color: #eee;
 }
 
 .container {
@@ -32,7 +33,7 @@ ul li {
 ul li span {
 	font-weight: normal;
 	color: black;
-	font-size: 0.7rem;
+	font-size: 0.65rem;
 	display: block;
 }
 
@@ -41,21 +42,24 @@ ul li span:last-of-type {
 }
 
 ul li:last-child {
-	background: white;
+	background-color: #eee;
 }
 
 ul li:first-child {
-	background-color: white;
-	color: black;
-}
-
-.container ul:first-child li:first-child {
+	background-color: #eee;
+	color: red;
 	font-size: 0.8rem;
 }
 
+ul li:first-child span {
+	color: red;
+}
+
+
 .container ul:first-child li {
-	background-color: white;
-	color: black;
+	background-color: #eee;
+	color: red;
+	font-size: 0.8rem;
 }
 
 .container ul:nth-child(2) li:nth-child(2), 
